@@ -1,0 +1,131 @@
+/* styles/Home.module.css */
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.experienceItem {
+  padding: 20px;
+  border: 1px solid #7d6363; /* Bordure légère pour délimiter les projets */
+  border-radius: 8px; /* Coins arrondis */
+  background-color: #716868; /* Couleur de fond légèrement différente */
+  margin-bottom: 20px; /* Espacement entre les projets */
+}
+
+.experienceItem h3 {
+  margin-top: 0; /* Supprime la marge en haut des titres */
+}
+
+
+.downloadContainer {
+  display: flex; /* Utilise Flexbox pour l'alignement */
+  align-items: center; /* Centre verticalement les éléments */
+  gap: 10px; /* Ajoute un espacement entre les éléments */
+}
+
+.downloadButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px; /* Vous pouvez retirer ce margin-top si vous utilisez ce style dans le conteneur */
+  background-color: #678eba;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.downloadButton:hover {
+  background-color: #0056b3;
+}
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  position: sticky; /* Reste en haut lorsque vous faites défiler */
+  top: 0; /* Colle au sommet de la page */
+  z-index: 1000; /* Assurez-vous qu'il soit au-dessus d'autres éléments */
+}
+
+.navbar ul {
+  list-style: none; /* Supprime les puces */
+  padding: 0; /* Supprime le remplissage */
+  display: flex; /* Aligne les éléments horizontalement */
+  justify-content: center; /* Centre les éléments */
+}
+
+.navbar ul li {
+  margin: 0 15px; /* Espace entre les éléments */
+}
+
+.navbar ul li a {
+  color: white; /* Couleur du texte */
+  text-decoration: none; /* Supprime le soulignement */
+  font-size: 18px; /* Taille du texte */
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline; /* Souligne lors du survol */
+}
+
+.link {
+  text-decoration: underline; /* Souligne le texte */
+  color: #8b9fb6; /* Couleur du lien */
+}
+
+.link:hover {
+  text-decoration: none; /* Enlève le soulignement au survol pour un effet visuel */
+}
+
+/* Styles des sections */
+.section {
+  margin: 40px 0; /* Ajoute de l'espace vertical entre les sections */
+  padding: 20px; /* Ajoute du remplissage intérieur */
+  border-radius: 8px; /* Coins arrondis */
+  background-color: #988888; /* Couleur de fond légèrement grise */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour profondeur */
+}
+
+.educationItem {
+  margin-bottom: 20px; /* Espace entre les éléments d'éducation */
+  padding: 10px; /* Ajoute du remplissage intérieur */
+  border: 1px solid #7d6363; /* Bordure légère pour délimiter les diplômes */
+  border-radius: 5px; /* Coins arrondis */
+  background-color: #716868; /* Couleur de fond légèrement différente */
+}
+
+
+/* Styles supplémentaires pour chaque section */
+.h2 {
+  border-bottom: 2px solid #333; /* Ligne sous le titre */
+  padding-bottom: 10px; /* Espace entre le titre et le texte */
+  margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Ajoutez cette classe pour le footer */
+.footer {
+  margin-top: 40px; /* Espace au-dessus du footer */
+  padding: 20px;
+  background-color: #333; /* Fond sombre pour le footer */
+  color: white; /* Couleur du texte */
+  text-align: center; /* Centre le texte */
+}
+
