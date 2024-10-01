@@ -38,28 +38,54 @@ const Page = () => {
             {/* Programming Languages */}
             <div className={styles.skill}>
               <h3>Programming Languages</h3>
-              <p>C#, Python (Flask), PHP (Laravel), JS (Next.js, Vue.js), HTML/CSS</p>
+              <ul>
+                <li>C#</li>
+                <li>Python (Flask)</li>
+                <li>PHP (Laravel)</li>
+                <li>JavaScript (Next.js, Vue.js)</li>
+                <li>HTML/CSS</li>
+              </ul>
             </div>
-    
+
             {/* Frameworks & Tools */}
             <div className={styles.skill}>
               <h3>Frameworks & Tools</h3>
-              <p>Laravel, Flutter, PostgreSQL, Odoo, GitHub, Vercel, Figma, Azure, Photoshop</p>
+              <ul>
+                <li>Laravel</li>
+                <li>Flutter</li>
+                <li>PostgreSQL</li>
+                <li>Odoo</li>
+                <li>GitHub</li>
+                <li>Vercel</li>
+                <li>Figma</li>
+                <li>Azure</li>
+                <li>Photoshop</li>
+              </ul>
             </div>
-    
+
             {/* Languages */}
             <div className={styles.skill}>
               <h3>Languages</h3>
-              <p>French (Native), Russian (Native), English (Upper Intermediate, B2)</p>
+              <ul>
+                <li>French (Native)</li>
+                <li>Russian (Native)</li>
+                <li>English (Upper Intermediate, B2)</li>
+              </ul>
             </div>
-            
+
             {/* Personal Skills */}
             <div className={styles.skill}>
               <h3>Personal Skills</h3>
-              <p>Strong problem-solving abilities, teamwork, adaptability, and effective communication skills.</p>
+              <ul>
+                <li>Strong problem-solving abilities</li>
+                <li>Teamwork</li>
+                <li>Adaptability</li>
+                <li>Effective communication skills</li>
+              </ul>
             </div>
           </div>
         </section>
+
 
         <section id="experience" className={styles.section}>
           <h2 className={styles.h2}>Work Experience</h2>
