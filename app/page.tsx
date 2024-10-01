@@ -75,7 +75,7 @@ const Page = () => {
                 Key functionalities included:
               </p>
               <ul>
-                <li>Creation of 'tour routes' based on notable figures</li>
+                <li>Creation of &apos;tour routes&apos; based on notable figures</li>
                 <li>Geolocation services to track visitor locations on the map</li>
                 <li>Interactive map interface for user-friendly navigation</li>
               </ul>
@@ -131,7 +131,7 @@ const Page = () => {
 
           {/* Bachelor's Degree */}
           <div className={styles.educationItem}>
-            <h3>Bachelor’s Degree in Technology</h3>
+            <h3>Bachelor&apos;s Degree in Technology</h3>
             <p><strong>Université Savoie Mont Blanc - IUT Annecy</strong> (Sept 2022 - present)</p>
             <p>Department: INFO, Track A - Application Development: Design, Development, Validation</p>
           </div>
