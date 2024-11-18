@@ -28,6 +28,7 @@ const Page = () => {
           <h2 className={styles.h2}>About Me</h2>
           <p>
             I am a third-year university student in computer science, looking to enhance my skills through hands-on experience in software development.
+            I enjoy development frontend, and I can do a fullstack project. Currently in research of an Internship for 12-16 weeks starting January.
           </p>
         </section>
 
@@ -80,7 +81,6 @@ const Page = () => {
                 <li>Strong problem-solving abilities</li>
                 <li>Teamwork</li>
                 <li>Adaptability</li>
-                <li>Effective communication skills</li>
               </ul>
             </div>
           </div>
@@ -94,6 +94,7 @@ const Page = () => {
             {/* Projet 3: 10-week Internship */}
             <div className={styles.experienceItem}>
               <h3>10-week Internship</h3>
+              <p><strong>April 2023 - June 2023</strong></p>
               <p><strong>Ste-Geneviève-des-Bois, France</strong></p>
               <p><strong>Technologies:</strong> NextJS, Vercel, Geolocation</p>
               <p>
@@ -107,6 +108,7 @@ const Page = () => {
               </ul>
               <p>
                 This project emphasized the importance of user interface design and accessibility for an enhanced visitor experience.
+                Link to see the work : https://svg-applicator.vercel.app/
               </p>
             </div>
     
@@ -114,7 +116,7 @@ const Page = () => {
             <div className={styles.experienceItem}>
               <h3>University Group Project (BMW Motorrad)</h3>
               <p><strong>September 2023 - January 2024</strong></p>
-              <p><strong>Technologies:</strong> Laravel, UML Diagrams</p>
+              <p><strong>Technologies:</strong> Laravel, UML Diagrams, SCRUM</p>
               <p>
                 Developed a website for BMW Motorrad based on detailed specifications. 
                 Key features included:
@@ -125,7 +127,7 @@ const Page = () => {
                 <li>User account management</li>
               </ul>
               <p>
-                This project utilized the SCRUM methodology for agile project management, enhancing collaboration and efficiency within the team.
+                This project utilized the SCRUM methodology for agile project management, enhancing collaboration and efficiency within the team of three.
               </p>
               <p>
                 <strong>GitHub Link:</strong> <a href="https://github.com/AnnKomp/BMWmotorrad" target="_blank" rel="noopener noreferrer" className={styles.link}>View Project on GitHub</a>
@@ -172,7 +174,7 @@ const Page = () => {
 
         <section id="interests" className={styles.section}>
           <h2 className={styles.h2}>Interests</h2>
-          <p>Reading fantasy novels, playing video games (open-world, strategy, action-RPG) like RDR2, GOW, Elden Ring or Skyrim, and pastry making.</p>
+          <p>Reading fantasy novels and books, playing video games (open-world, strategy, action-RPG) like RDR2, GOW, Elden Ring or Skyrim, and pastry making.</p>
         </section>
 
         <section>
