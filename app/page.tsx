@@ -108,7 +108,7 @@ const Page = () => {
               </ul>
               <p>
                 This project emphasized the importance of user interface design and accessibility for an enhanced visitor experience.
-                Link to see the work : https://svg-applicator.vercel.app/
+                Link to see the work : <a href="https://svg-applicator.vercel.app/"  target="_blank" rel="noopener noreferrer" className={styles.link}>Click here!</a>
               </p>
             </div>
     
