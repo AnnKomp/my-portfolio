@@ -202,6 +202,90 @@ background: var(--accent-soft);
   box-shadow: 0 18px 36px rgba(155, 93, 229, 0.3);
 }
 
+.longContent {
+  max-width: 1180px;
+  margin: 0 auto 24px;
+  display: grid;
+  gap: 18px;
+}
+
+.longBlock {
+  padding: 36px;
+  border: 1px solid rgba(80, 68, 100, 0.12);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.64);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 20px 60px rgba(68, 56, 92, 0.08);
+}
+
+.longBlock h2 {
+  margin: 0 0 16px;
+  color: #2f2a36;
+  font-size: clamp(1.45rem, 2.4vw, 2.05rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+
+.longBlock p {
+  max-width: 900px;
+  margin: 0;
+  color: #5d536c;
+  font-size: 1.04rem;
+  line-height: 1.8;
+}
+
+.galleryGrid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.galleryCard {
+  overflow: hidden;
+  border: 1px solid rgba(80, 68, 100, 0.12);
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.imagePlaceholder {
+  position: relative;
+  min-height: 260px;
+  background:
+    linear-gradient(135deg, rgba(58, 134, 255, 0.12), rgba(241, 91, 181, 0.12)),
+    rgba(255, 255, 255, 0.5);
+}
+
+.imagePlaceholder::before {
+  content: 'Image à ajouter';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  color: rgba(47, 42, 54, 0.42);
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.galleryImage {
+  object-fit: cover;
+  z-index: 2;
+}
+
+.galleryCard h3 {
+  margin: 22px 22px 8px;
+  color: #2f2a36;
+  font-size: 1.2rem;
+}
+
+.galleryCard p {
+  margin: 0 22px 24px;
+  color: #5d536c;
+  line-height: 1.7;
+}
+
 @media (max-width: 760px) {
   .page {
   margin: -16px;
@@ -226,4 +310,12 @@ background: var(--accent-soft);
   .metaGrid {
     grid-template-columns: 1fr;
   }
+
+  .galleryGrid {
+  grid-template-columns: 1fr;
+}
+
+.longBlock {
+  padding: 28px;
+}
 }

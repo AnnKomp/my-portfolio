@@ -2,6 +2,7 @@
 
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { projects } from '../../../data/portfolio';
 import styles from '../../../styles/DetailPage.module.css';
 
@@ -68,6 +69,41 @@ export default function ProjectDetailPage({ params }: ProjectDetailPageProps) {
           ))}
         </ul>
       </section>
+
+      {'longSections' in project && project.longSections && (
+        <section className={styles.longContent}>
+          {project.longSections.map((section) => (
+            <article key={section.title} className={styles.longBlock}>
+              <h2>{section.title}</h2>
+              <p>{section.content}</p>
+            </article>
+          ))}
+        </section>
+      )}
+
+      {'gallery' in project && project.gallery && (
+        <section className={styles.section}>
+          <h2>Captures et supports visuels</h2>
+
+          <div className={styles.galleryGrid}>
+            {project.gallery.map((item) => (
+              <article key={item.title} className={styles.galleryCard}>
+                <div className={styles.imagePlaceholder}>
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className={styles.galleryImage}
+                  />
+                </div>
+
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
 
       {project.link && (
         <section className={styles.cta}>
