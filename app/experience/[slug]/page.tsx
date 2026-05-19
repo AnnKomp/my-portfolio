@@ -83,24 +83,29 @@ export default function ExperienceDetailPage({
         </ul>
       </section>
 
-      {experience.link && (
-        <section className={styles.cta}>
-          <h2>Voir le projet</h2>
-          <p>
-            Une version en ligne est disponible pour consulter le résultat du
-            projet.
-          </p>
+      {experience.links && experience.links.length > 0 && (
+  <section className={styles.cta}>
+    <h2>Liens liés à cette expérience</h2>
+    <p>
+      Certains projets réalisés ou suivis pendant cette expérience sont
+      accessibles en ligne.
+    </p>
 
-          <a
-            href={experience.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.button}
-          >
-            Ouvrir le projet
-          </a>
-        </section>
-      )}
+    <div className={styles.buttonGroup}>
+      {experience.links.map((link) => (
+        <a
+          key={link.url}
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.button}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </section>
+)}
     </main>
   );
 }

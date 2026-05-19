@@ -6,18 +6,11 @@ import { professionalStatus } from '../data/portfolio';
 
 const featuredProjects = [
   {
-    title: 'Remplx',
+    title: 'Remplax',
     type: 'Plateforme médicale',
     stack: 'Next.js · NestJS',
     description:
       'Développement de fonctionnalités web sur une plateforme médicale dans un contexte client.',
-  },
-  {
-    title: 'Eliasur',
-    type: 'Système de parrainage',
-    stack: 'Next.js · Supabase · Firebase',
-    description:
-      'Participation au développement d’un système de parrainage avec gestion de données et interface utilisateur.',
   },
   {
     title: 'Plan interactif de cimetière',

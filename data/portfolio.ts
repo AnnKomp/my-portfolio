@@ -25,38 +25,66 @@ export const professionalStatus = {
 
 export const experiences = [
   {
-    slug: 'spop-agency',
-    title: 'Stage Développement Logiciel',
-    company: 'SPOP’Agency',
-    period: 'Janvier — Mai 2025',
-    location: 'France',
-    shortDescription:
-      'Développement de fonctionnalités web et mobile sur plusieurs projets clients dans un environnement agile.',
-    stack: ['Next.js', 'NestJS', 'Supabase', 'Firebase', 'Tailwind CSS', 'GitLab', 'Asana'],
-    missions: [
-      'Développement de fonctionnalités web sur Remplx, une plateforme médicale.',
-      'Participation au développement d’Eliasur, un système de parrainage.',
-      'Refonte complète du site ASPAC sous WordPress avec optimisation SEO.',
-      'Travail en équipe agile avec GitLab, Asana et Tailwind CSS.',
-    ],
-  },
+  slug: 'spop-agency',
+  title: 'Stage Développement Logiciel',
+  company: 'SPOP’Agency',
+  period: 'Janvier — Mai 2025',
+  location: 'France',
+  shortDescription:
+    'Développement de fonctionnalités web et mobile sur plusieurs projets clients, avec participation à des applications Next.js, NestJS, Supabase, Firebase et WordPress.',
+  stack: [
+    'Next.js',
+    'React',
+    'NestJS',
+    'Supabase',
+    'Firebase',
+    'WordPress',
+    'Tailwind CSS',
+    'GitLab',
+    'Asana',
+  ],
+  missions: [
+    'Participation au développement de Remplax, une plateforme médicale utilisant Next.js et NestJS.',
+    'Développement de fonctionnalités frontend et backend sur des projets clients.',
+    'Travail sur Eliasur, un système de parrainage basé sur Next.js, Supabase et Firebase.',
+    'Refonte complète du site ASPAC sous WordPress avec amélioration de la structure, de l’interface et de l’optimisation SEO.',
+    'Intégration d’interfaces responsives avec Tailwind CSS.',
+    'Utilisation de GitLab pour le versioning et d’Asana pour le suivi des tâches.',
+    'Travail en équipe dans un environnement agile, avec échanges réguliers sur les besoins clients et l’avancement des fonctionnalités.',
+  ],
+  links: [
+    {
+      label: 'Remplax',
+      url: 'https://remplax.fr',
+    },
+    {
+      label: 'ASPAC Châtelaillon',
+      url: 'https://www.aspac-chatelaillon.fr',
+    },
+  ],
+},
   {
-    slug: 'plan-cimetiere',
-    title: 'Stage Développement Web',
-    company: 'Projet de plan interactif',
-    period: 'Avril — Juin 2024',
-    location: 'Sainte-Geneviève-des-Bois, France',
-    shortDescription:
-      'Création d’un plan de cimetière interactif avec géolocalisation et parcours utilisateurs.',
-    stack: ['Next.js', 'Vercel', 'Géolocalisation', 'SVG', 'UI interactive'],
-    missions: [
-      'Création d’une carte interactive permettant aux visiteurs de naviguer dans le cimetière.',
-      'Développement de parcours utilisateurs autour de figures notables.',
-      'Gestion des coordonnées et de l’affichage dynamique sur le plan.',
-      'Déploiement du projet sur Vercel.',
-    ],
-    link: 'https://svg-applicator.vercel.app/',
-  },
+  slug: 'plan-cimetiere',
+  title: 'Stage Développement Web',
+  company: 'Projet de plan interactif',
+  period: 'Avril — Juin 2024',
+  location: 'Sainte-Geneviève-des-Bois, France',
+  shortDescription:
+    'Création d’un plan de cimetière interactif avec géolocalisation et parcours utilisateurs.',
+  stack: ['Next.js', 'Vercel', 'Géolocalisation', 'SVG', 'UI interactive'],
+  missions: [
+    'Création d’une carte interactive permettant aux visiteurs de naviguer dans le cimetière.',
+    'Développement de parcours utilisateurs autour de figures notables.',
+    'Gestion des coordonnées et de l’affichage dynamique sur le plan.',
+    'Déploiement du projet sur Vercel.',
+  ],
+  links: [
+    {
+      label: 'Voir le projet',
+      url: 'https://svg-applicator.vercel.app/',
+    },
+  ],
+},
 ];
 
 export const projects = [

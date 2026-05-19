@@ -129,6 +129,13 @@ background: var(--accent-soft);
   font-weight: 750;
 }
 
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
 .tags {
   margin-top: 28px;
   display: flex;
