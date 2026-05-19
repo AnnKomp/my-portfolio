@@ -61,6 +61,22 @@ export const experiences = [
 
 export const projects = [
   {
+  slug: 'personal-automation-n8n',
+  title: 'Automatisation personnelle avec n8n',
+  category: 'Projet personnel',
+  description:
+    'Mise en place d’un environnement d’automatisation personnel avec n8n afin de simplifier des tâches répétitives, connecter différents services et expérimenter des workflows low-code/self-hosted.',
+  stack: ['n8n', 'Docker', 'Google Cloud', 'Cloudflare', 'Automation', 'Webhooks'],
+  highlights: [
+    'Installation et configuration d’un environnement n8n.',
+    'Utilisation de Docker pour isoler et gérer le service.',
+    'Connexion à des services externes via webhooks et intégrations.',
+    'Expérimentation de workflows pour automatiser des tâches personnelles.',
+    'Utilisation de Google Cloud et Cloudflare dans la configuration technique.',
+    'Découverte des problématiques de self-hosting, sécurité, accès distant et maintenance.',
+  ],
+},
+  {
     slug: 'godot-game',
     title: 'Jeu narratif avec Godot',
     category: 'Projet personnel',

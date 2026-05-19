@@ -33,6 +33,13 @@ const featuredProjects = [
     description:
       'Développement d’un jeu avec dialogues, quêtes, inventaire, sauvegardes et localisation multilingue.',
   },
+  {
+  title: 'Automatisation personnelle',
+  type: 'n8n self-hosted',
+  stack: 'n8n · Docker · Google Cloud · Cloudflare',
+  description:
+    'Mise en place de workflows d’automatisation pour connecter des services, simplifier des tâches répétitives et expérimenter le self-hosting.',
+},
 ];
 
 const skills = [
