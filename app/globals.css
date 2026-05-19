@@ -11,15 +11,23 @@ html {
 body {
   margin: 0;
   color: #2f2a36;
-  background:
-    radial-gradient(circle at top left, rgba(255, 214, 224, 0.72), transparent 34%),
-    radial-gradient(circle at top right, rgba(204, 235, 255, 0.72), transparent 32%),
-    linear-gradient(135deg, #fff8f2 0%, #f8f2ff 48%, #eef7ff 100%);
+  background: #fff8f2;
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
 a {
   color: inherit;
+}
+
+.site-shell {
+  min-height: 100vh;
+  padding: 28px;
+}
+
+@media (max-width: 760px) {
+  .site-shell {
+    padding: 16px;
+  }
 }
 
 .site-shell {
