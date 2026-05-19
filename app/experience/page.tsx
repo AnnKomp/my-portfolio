@@ -6,7 +6,7 @@ import styles from '../../styles/Subpage.module.css';
 
 export default function ExperiencePage() {
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.experienceTheme}`}>
       <section className={styles.header}>
         <p className={styles.label}>Expériences</p>
         <h1>Stages, projets clients et développement web concret.</h1>

@@ -40,7 +40,7 @@ export default function ProjectDetailPage({ params }: ProjectDetailPageProps) {
   }
 
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.projectsTheme}`}>
       <Link href="/projects" className={styles.backLink}>
         ← Retour aux projets
       </Link>

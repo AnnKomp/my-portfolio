@@ -6,7 +6,7 @@ import styles from '../../styles/Subpage.module.css';
 
 export default function ProjectsPage() {
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.projectsTheme}`}>
       <section className={styles.header}>
         <p className={styles.label}>Projets</p>
         <h1>Des projets web, techniques et personnels.</h1>

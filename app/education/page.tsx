@@ -5,7 +5,7 @@ import styles from '../../styles/Subpage.module.css';
 
 export default function EducationPage() {
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.educationTheme}`}>
       <section className={styles.header}>
         <p className={styles.label}>Études</p>
         <h1>Un parcours orienté conception, développement et validation.</h1>

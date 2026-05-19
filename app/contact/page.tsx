@@ -5,7 +5,7 @@ import styles from '../../styles/Subpage.module.css';
 
 export default function ContactPage() {
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.contactTheme}`}>
       <section className={styles.header}>
         <p className={styles.label}>Contact</p>
         <h1>Discutons d’une alternance ou d’un projet.</h1>

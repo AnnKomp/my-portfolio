@@ -5,7 +5,7 @@ import styles from '../../styles/Subpage.module.css';
 
 export default function SkillsPage() {
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.skillsTheme}`}>
       <section className={styles.header}>
         <p className={styles.label}>Compétences</p>
         <h1>Une stack full stack avec une base solide en développement web.</h1>

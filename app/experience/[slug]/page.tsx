@@ -42,7 +42,7 @@ export default function ExperienceDetailPage({
   }
 
   return (
-    <main className={styles.page}>
+    <main className={`${styles.page} ${styles.experienceTheme}`}>
       <Link href="/experience" className={styles.backLink}>
         ← Retour aux expériences
       </Link>
