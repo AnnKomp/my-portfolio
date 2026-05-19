@@ -52,19 +52,7 @@ const skills = [
 export default function Page() {
   return (
     <main className={styles.page}>
-      <nav className={styles.navbar}>
-        <Link href="/" className={styles.logo}>
-          Anna Kompaniets
-        </Link>
-
-        <div className={styles.navLinks}>
-          <Link href="/experience">Expériences</Link>
-          <Link href="/projects">Projets</Link>
-          <Link href="/education">Études</Link>
-          <Link href="/skills">Compétences</Link>
-          <Link href="/contact">Contact</Link>
-        </div>
-      </nav>
+      
 
       <section className={styles.hero}>
         <div className={styles.heroContent}>
