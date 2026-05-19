@@ -1,7 +1,7 @@
 // app/experience/page.tsx
 
 import Link from 'next/link';
-import { experiences } from '../../data/portfolio';
+import { experiences, professionalStatus } from '../../data/portfolio';
 import styles from '../../styles/Subpage.module.css';
 
 export default function ExperiencePage() {
@@ -17,6 +17,18 @@ export default function ExperiencePage() {
       </section>
 
       <section className={styles.grid}>
+        <article className={styles.card}>
+  <p className={styles.meta}>{professionalStatus.location}</p>
+  <h2>{professionalStatus.title}</h2>
+  <h3>Statut professionnel</h3>
+  <p>{professionalStatus.description}</p>
+
+  <div className={styles.tags}>
+    {professionalStatus.highlights.map((item) => (
+      <span key={item}>{item}</span>
+    ))}
+  </div>
+</article>
         {experiences.map((experience) => (
           <article key={experience.slug} className={styles.card}>
             <p className={styles.meta}>{experience.period}</p>

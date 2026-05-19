@@ -11,6 +11,18 @@ export const profile = {
     'Développeuse full stack orientée web, produit et interfaces utiles. Je conçois des applications avec Next.js, React, NestJS, Supabase et PostgreSQL, avec une attention particulière portée à la structure des données, à l’expérience utilisateur et à la maintenabilité du code.',
 };
 
+export const professionalStatus = {
+  title: 'Micro-entrepreneure',
+  location: 'France',
+  description:
+    'Activité déclarée en développement informatique et prestations numériques.',
+  highlights: [
+    'Développement web et applications',
+    'Prestations numériques',
+    'Expérience avec des besoins clients réels',
+  ],
+};
+
 export const experiences = [
   {
     slug: 'spop-agency',

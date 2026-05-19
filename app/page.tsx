@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+import { professionalStatus } from '../data/portfolio';
 
 const featuredProjects = [
   {
@@ -63,11 +64,11 @@ export default function Page() {
           </h1>
 
           <p className={styles.heroText}>
-            Je conçois et développe des applications web avec Next.js, React,
-            NestJS, Supabase et PostgreSQL. Actuellement admise en Master
-            Informatique à l’Université Lumière Lyon 2, je recherche une
-            alternance en développement full stack ou backend.
-          </p>
+  Je conçois et développe des applications web avec Next.js, React,
+  NestJS, Supabase et PostgreSQL. Micro-entrepreneure en développement
+  informatique et admise en Master Informatique à l’Université Lumière
+  Lyon 2, je recherche une alternance en développement full stack ou backend.
+</p>
 
           <div className={styles.heroActions}>
             <Link href="/projects" className={styles.primaryButton}>
@@ -126,6 +127,21 @@ export default function Page() {
           Voir tous les projets →
         </Link>
       </section>
+
+      <section className={styles.section}>
+  <div className={styles.sectionHeader}>
+    <p className={styles.sectionLabel}>Statut professionnel</p>
+    <h2>{professionalStatus.title}</h2>
+  </div>
+
+  <p className={styles.largeText}>{professionalStatus.description}</p>
+
+  <div className={styles.skillsCloud}>
+    {professionalStatus.highlights.map((item) => (
+      <span key={item}>{item}</span>
+    ))}
+  </div>
+</section>
 
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
